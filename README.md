@@ -3,7 +3,7 @@ Project Overview
 This project focuses on performing sentiment analysis on Twitter data using machine learning techniques in Python. The goal is to *classify tweets as either positive or negative* based on their content, allowing us to understand public sentiment on various topics.
 
 **Key Features:-**
-Data Collection: Utilizes the Sentiment 140 dataset, which contains 1.6 million tweets, to train and evaluate the machine learning model.
+-Data Collection: Utilizes the Sentiment 140 dataset, which contains 1.6 million tweets, to train and evaluate the machine learning model.
 Data Preprocessing: Converts textual data into a numerical format suitable for machine learning algorithms. This includes:
 Removing special characters, numbers, and stop words.
 Implementing stemming to reduce words to their root forms.
@@ -11,11 +11,11 @@ Model Training: Employs logistic regression as the classification model to predi
 Model Evaluation: Splits the dataset into training and test sets to evaluate the model's accuracy and performance.
 
 **Technologies Used:-**
-Python
-Jupyter Notebook
-Pandas
-NLTK (Natural Language Toolkit)
-Scikit-learn
+Python,
+Jupyter Notebook,
+Pandas,
+NLTK (Natural Language Toolkit),
+Scikit-learn,
 
 **Dataset Loading:-**
 Dataset Link- [(https://www.kaggle.com/datasets/kazanova/sentiment140)]
