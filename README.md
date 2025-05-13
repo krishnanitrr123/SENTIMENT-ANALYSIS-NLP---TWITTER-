@@ -2,7 +2,7 @@
 Project Overview
 This project focuses on performing sentiment analysis on Twitter data using machine learning techniques in Python. The goal is to *classify tweets as either positive or negative* based on their content, allowing us to understand public sentiment on various topics.
 
-**Key Features**
+**Key Features:-**
 Data Collection: Utilizes the Sentiment 140 dataset, which contains 1.6 million tweets, to train and evaluate the machine learning model.
 Data Preprocessing: Converts textual data into a numerical format suitable for machine learning algorithms. This includes:
 Removing special characters, numbers, and stop words.
@@ -10,22 +10,22 @@ Implementing stemming to reduce words to their root forms.
 Model Training: Employs logistic regression as the classification model to predict tweet sentiment.
 Model Evaluation: Splits the dataset into training and test sets to evaluate the model's accuracy and performance.
 
-**Technologies Used**
+**Technologies Used:-**
 Python
 Jupyter Notebook
 Pandas
 NLTK (Natural Language Toolkit)
 Scikit-learn
 
-**Dataset Loading**
+**Dataset Loading:-**
 Dataset Link- [(https://www.kaggle.com/datasets/kazanova/sentiment140)]
 
 
-**Usage**
+**Usage:-**
 The project includes a step-by-step guide to load the dataset, preprocess the data, train the logistic regression model, and evaluate its performance.
 After training, the model can be used to predict the sentiment of new tweets.
 
-**Most Usefull Concept**
+**Most Usefull Concept:-**
  Stemming: Stemming is a natural language processing (NLP) technique used to reduce words to their root or base form, known as the "stem.
  " The purpose of stemming is to simplify the analysis of text data by consolidating different forms of a word into a single representation. 
  For example, the words "running," "runner," and "ran" can all be reduced to the root word "run."
@@ -43,5 +43,5 @@ and then applies the stemming algorithm to reduce it to its root form.
 3.Rejoining Words: After stemming, the processed words are joined back together to form the cleaned tweet text, which is then stored in a new column in the DataFrame.
  
 
-**Conclusion**
+**Conclusion:-**
 This project demonstrates the application of machine learning techniques to analyze and classify sentiments in social media data, providing insights into public opinion and trends. Feel free to explore and modify the code to suit your needs!
